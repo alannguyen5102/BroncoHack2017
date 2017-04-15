@@ -14,6 +14,7 @@ margin-bottom:10px;
 
 #divpad{
 	padding-bottom:3%;
+	background-color: #FDBA25;
 }
 
 #info{
@@ -264,6 +265,7 @@ li a:hover, .dropdown:hover .dropbtn {
 	.dropdown-content {
 			text-align: center;
 	    width: 100%;
+
 	}
 }
 
@@ -325,7 +327,7 @@ li a:hover, .dropdown:hover .dropbtn {
 
 }
 .nav-pills > li {
-	background-color: #36353b;
+	background-color: #529CD5;
 		border-radius: 25px;
 	float: none;
 	margin: 10px;
@@ -388,11 +390,11 @@ li a:hover, .dropdown:hover .dropbtn {
 }
 .nav > li > a:hover {
 	color: rgb(160,238,255);
-	background-color: #39373a;
+	background-color: #529CD5;
 }
 .nav > li > a:active {
 	color: rgb(160,238,255);
-	background-color: #39373a;
+	background-color: #529CD5;
 }
 
 
@@ -405,8 +407,8 @@ li a:hover, .dropdown:hover .dropbtn {
     margin: 50px auto;
     border: 1px solid #d1d1d1;
     border-radius: 50%;
-    -webkit-animation: breathing 6s ease-out infinite normal;
-    animation: breathing 6s ease-out infinite normal;
+    -webkit-animation: breathing 7s ease-out infinite normal;
+    animation: breathing 7s ease-out infinite normal;
     font-size: 24px;
     background: #5885cb;
     color: #fff;
@@ -424,7 +426,7 @@ li a:hover, .dropdown:hover .dropbtn {
     transform: scale(0.9);
   }
 
-  25% {
+  40% {
     -webkit-transform: scale(1.4);
     -ms-transform: scale(1.4);
     transform: scale(1.4);
@@ -447,9 +449,9 @@ li a:hover, .dropdown:hover .dropbtn {
      text-align: center;
 }
 .animated-words span:nth-child(2) { 
-    -webkit-animation-delay: 1.5s; 
-    -ms-animation-delay: 1.5s; 
-    animation-delay: 1.5s; 
+    -webkit-animation-delay: 2s; 
+    -ms-animation-delay: 2s; 
+    animation-delay: 2s; 
     color: #6b889d;
 }
 .animated-words span {
@@ -458,9 +460,9 @@ li a:hover, .dropdown:hover .dropbtn {
     opacity: 0;
     overflow: hidden;
     color: #6b969d;
-    -webkit-animation: animateWord 6s linear infinite 0s;
-    -ms-animation: animateWord 6s linear infinite 0s;
-    animation: animateWord 6s linear infinite 0s;
+    -webkit-animation: animateWord 7s linear infinite 0s;
+    -ms-animation: animateWord 7s linear infinite 0s;
+    animation: animateWord 7s linear infinite 0s;
 }
 @-webkit-keyframes animateWord {
     0% { opacity: 0; }
@@ -470,4 +472,9 @@ li a:hover, .dropdown:hover .dropbtn {
     20% { opacity: 0; -webkit-transform: translateY(30px); }
     80% { opacity: 0; }
     100% { opacity: 0; }
+}
+
+#landing
+{
+	background-color: #FDBA25;
 }
