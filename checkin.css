@@ -16,6 +16,9 @@ margin-bottom:10px;
 	padding-bottom:3%;
 }
 
+#info{
+	font-size: 200%;
+}
 #clearcolor{
 	background-color:white;
 }
@@ -301,25 +304,31 @@ li a:hover, .dropdown:hover .dropbtn {
 }
 
 
-
+#landingtab{
+	border-radius: 25px;
+}
 .nav-wrapper {
-	background-color: #36353b;
-	margin-right: 15%;
-	margin-left: 15%;
+	
+	margin-right: 8%;
+	margin-left: 8%;
 	text-align:center;
 
 }
 .nav-pills {
+
 	padding: 15px 0;
 	margin: 0 -10px;
 	font-family: 'bebasneue';
 	font-size: 16pt;
 	color: #fff;
 
+
 }
 .nav-pills > li {
+	background-color: #36353b;
+		border-radius: 25px;
 	float: none;
-	margin: 0 -18px;
+	margin: 10px;
 }
 @media (min-width: 360px) {
 	.nav-pills > li {
