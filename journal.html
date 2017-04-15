@@ -30,10 +30,10 @@
 <div class="row">
   <ul class="topnav" id="myTopnav">
       <p id="currentpage">Home</p>
-      <li><a href="homepage.html">Home</a></li>
-      <li><a href="reminders.html">Reminders</a></li>
-      <li><a href="journal.html">Journal</a></li>
-      <li><a class="active" href="landingpage.html">Sign Up</a></li>
+  	  <li><a  href="homepage.html">Home</a></li>
+  	  <li><a href="reminders.html">Reminders</a></li>
+  	  <li><a class="active" href="journal.html">Journal</a></li>
+  	  <li><a href="landingpage.html">Sign Up</a></li>
       <li class="right"><a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a></li>
   </ul>
 </div>
@@ -41,11 +41,13 @@
 
 <div class="container" id="divpad">
 <div class="row">
-  <div class="col-sm-4">
+    <div class="col-sm-4">
+    <h1>
+    Write your thoughts
+    </h1>
   <form action="/action_page.php">
-    <input type="text" class="form-control" name="fname" placeholder="First name"><br>
-    <input type="text" class="form-control" name="lname" placeholder="Last name"><br>
-    <input type="text" class="form-control" name="email" placeholder="Enter your email here :)"><br>
+    <textarea class="form-control" rows="10" name="fname" placeholder="How do you feel?"></textarea>
+
     <input type="submit" value="Submit">
   </form> 
 
@@ -53,6 +55,10 @@
 
 	</div>
    
+
+
+
+	</div>
 </div>
 
 </div>
