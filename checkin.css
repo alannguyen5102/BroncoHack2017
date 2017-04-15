@@ -3,7 +3,8 @@ body{
 }
 
 div.container
-{background-color: rgb(160,238,255);
+{
+background-color: rgb(160,238,255);
 margin-bottom:10px;
 }
 
@@ -297,4 +298,90 @@ li a:hover, .dropdown:hover .dropbtn {
 #comment{
 	padding-left:15px;
 }
+}
+
+
+
+.nav-wrapper {
+	background-color: #36353b;
+	margin-right: 15%;
+	margin-left: 15%;
+	text-align:center;
+
+}
+.nav-pills {
+	padding: 15px 0;
+	margin: 0 -10px;
+	font-family: 'bebasneue';
+	font-size: 16pt;
+	color: #fff;
+
+}
+.nav-pills > li {
+	float: none;
+	margin: 0 -18px;
+}
+@media (min-width: 360px) {
+	.nav-pills > li {
+		margin: 0 -10px;
+	}
+}
+@media (min-width: 410px) {
+	.nav-pills > li {
+		margin: 0;
+	}
+}
+@media (min-width: 768px) {
+	.nav-pills {
+		margin: 0 -40px;
+		margin-top: 40px;
+		font-size: 18pt;
+	}
+	.nav-pills > li {
+		padding: 0 40px;
+	}
+}
+@media (min-width: 768px) {
+	.nav-pills {
+		margin: 0 -40px;
+		margin-top: 40px;
+		font-size: 18pt;
+	}
+	.nav-pills > li {
+		padding: 0 40px;
+	}
+}
+@media (min-width: 992px) {
+	.nav-pills {
+		margin: 0 -70px;
+		margin-top: 0px;
+	}
+	.nav-pills > li {
+		padding: 0 70px;
+	}
+}
+@media (min-width: 1200px) {
+	.nav-pills {
+		margin: 0 -90px;
+	}
+	.nav-pills > li {
+		padding: 0 90px;
+	}
+}
+
+
+
+.nav > li {
+	display: inline-block;
+}
+.nav > li > a {
+	color: #fff;
+}
+.nav > li > a:hover {
+	color: rgb(160,238,255);
+	background-color: #39373a;
+}
+.nav > li > a:active {
+	color: rgb(160,238,255);
+	background-color: #39373a;
 }
